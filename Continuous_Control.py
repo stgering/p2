@@ -41,7 +41,6 @@ def ddpg(n_episodes=500, target_score=30.0, print_every=1, window_len=100, updat
         scores = np.zeros(num_agents)                          # initialize the score (for each agent)
         t = 0
 
-        #for t in range(max_t):
         while(True):
             t += 1
             actions = agent.act(states)                        # get action from policy            
