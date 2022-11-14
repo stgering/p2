@@ -31,3 +31,9 @@ The training is carried out in a distributed manner by means of [deep determinis
 Executing `Continuous_Control.py` will start the training of the agent. 
 It will output a plot of the averaged score over 100 consecutive time frames and all 20 agents. 
 Resulting weights of the trained actor and critic will be stored in the files `checkpoint_*.pth`.
+
+## Sources
+
+The implementation builds up on a code framework provided by [Udacity's Reinforcement Learning Exprert Nano degree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893).
+It also uses the `Reacher`-environment of [Unity](https://unity.com/de/products/machine-learning-agents).
+The implemented actor-critic reinforcement learning method implemented is [deep deterministic policy gradient (DDPG)](https://arxiv.org/abs/1509.02971).
