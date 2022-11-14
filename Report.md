@@ -16,7 +16,7 @@ Actor and critic were both deep nets with 33 inputs, two fully connected hidden 
 
 # Results
 
-As can be seen from the plot, the the agent is able to receive an average reward over 30, whereas the average was carried out over all 20 agents and over a time window of 100 episodes. The target was reached after 124 epsiodes.
+As can be seen from the plot, the the agent is able to receive an average reward over 30, whereas the average was carried out over all 20 agents and over a time window of 100 episodes. The target was reached after **124 epsiodes**.
 
 The reward plot shows in particular a quite smooth evolution of the scores, or in other words a stable learning of the agent. This is probably due to 
 + the smoothing effects of agents exploring 
